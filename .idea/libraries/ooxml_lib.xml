@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="ooxml-lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/poi-bin-5.2.3/ooxml-lib/curvesapi-1.07.jar!/" />
+      <root url="jar://$PROJECT_DIR$/poi-bin-5.2.3/ooxml-lib/slf4j-api-1.7.36.jar!/" />
+      <root url="jar://$PROJECT_DIR$/poi-bin-5.2.3/ooxml-lib/xmlbeans-5.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/poi-bin-5.2.3/ooxml-lib/jakarta.activation-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/poi-bin-5.2.3/ooxml-lib/commons-compress-1.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/poi-bin-5.2.3/ooxml-lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/poi-bin-5.2.3/ooxml-lib/jakarta.xml.bind-api-3.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

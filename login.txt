@@ -1,0 +1,2 @@
+login: admin
+hasło: admin123

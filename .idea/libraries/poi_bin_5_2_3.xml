@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="poi-bin-5.2.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/poi-bin-5.2.3/poi-excelant-5.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/poi-bin-5.2.3/poi-scratchpad-5.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/poi-bin-5.2.3/poi-ooxml-lite-5.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/poi-bin-5.2.3/poi-javadoc-5.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/poi-bin-5.2.3/poi-5.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/poi-bin-5.2.3/poi-ooxml-full-5.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/poi-bin-5.2.3/poi-ooxml-5.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/poi-bin-5.2.3/poi-examples-5.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mysql-connector-j-8.4.0.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../.." />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/poi-bin-5.2.3/poi-javadoc-5.2.3.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
