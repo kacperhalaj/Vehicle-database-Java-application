@@ -1,6 +1,6 @@
 # Vehicle Database – projekt Java
 
-Aplikacja umożliwia zarządzanie bazą pojazdów w relacyjnej bazie danych PostgreSQL. System napisany jest w **Java**. Interfejs pozwala przeglądać, filtrować, dodawać i edytować pojazdy oraz ich szczegóły.
+Aplikacja umożliwia zarządzanie bazą pojazdów w relacyjnej bazie danych MySQL. System napisany jest w **Java**. Interfejs pozwala przeglądać, filtrować, dodawać i edytować pojazdy oraz ich szczegóły.
 
 ---
 
