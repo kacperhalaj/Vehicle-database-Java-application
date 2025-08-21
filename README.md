@@ -1,6 +1,6 @@
 # Vehicle Database – projekt Java
 
-Aplikacja umożliwia zarządzanie bazą pojazdów w relacyjnej bazie danych MySQL. System napisany jest w **Java**. Interfejs pozwala przeglądać, filtrować, dodawać i edytować pojazdy oraz ich szczegóły.
+Aplikacja umożliwia zarządzanie bazą pojazdów w relacyjnej bazie danych **MySQL**. System napisany jest w **Java**. Interfejs pozwala przeglądać, filtrować, dodawać i edytować pojazdy oraz ich szczegóły.
 
 ---
 
@@ -19,23 +19,23 @@ Aplikacja umożliwia zarządzanie bazą pojazdów w relacyjnej bazie danych MySQ
 ### Diagram systemu
 ![Diagram](images/Diagram.png)
 
-### Diagram Gantta
-![Diagram Gantta](images/DiagramGantta.png)
-
 ### Uproszczony diagram
 ![Uproszczony diagram](images/UproszczonyDiagram.png)
 
-### Ekran główny aplikacji
-![Główne okno](images/GlowneOkno.png)
+### Diagram Gantta
+![Diagram Gantta](images/DiagramGantta.png)
 
-### Ekran ładowania
-![Ekran ładowania](images/EkranLadowania.png)
+### Historia commitów
+![Historia commitów](images/HistoriaCommitow.png)
 
 ### Ekran wczytywania
 ![Ekran wczytywania](images/EkranWczytywania.png)
 
-### Historia commitów
-![Historia commitów](images/HistoriaCommitow.png)
+### Ekran ładowania
+![Ekran ładowania](images/EkranLadowania.png)
+
+### Ekran główny aplikacji
+![Główne okno](images/GlowneOkno.png)
 
 ### Formularz dodawania pojazdu
 ![Dodawanie pojazdu](images/Dodawanie.png)
@@ -55,18 +55,29 @@ Aplikacja umożliwia zarządzanie bazą pojazdów w relacyjnej bazie danych MySQ
 
 ---
 
-## Instrukcja uruchomienia
+## Instrukcja uruchomienia (XAMPP/MySQL)
 
-1. **Utwórz bazę PostgreSQL**  
-   Możesz użyć pliku `baza_pojazdow.sql` do utworzenia struktury i przykładowych danych.
+1. **Uruchom XAMPP i wystartuj serwer MySQL**  
+   (Panel XAMPP → Start przy MySQL)
 
-2. **Skonfiguruj połączenie z bazą**  
-   Ustaw dane dostępowe w odpowiednim pliku konfiguracyjnym aplikacji (np. w kodzie lub pliku `.properties`).
+2. **Stwórz bazę danych w phpMyAdmin**  
+   - Wejdź na [localhost/phpmyadmin](http://localhost/phpmyadmin)
+   - Utwórz nową bazę o nazwie np. `baza_pojazdow`
+   - Zaimportuj plik `baza_pojazdow.sql` przez zakładkę "Import"
 
-3. **Zbuduj projekt**  
+3. **Skonfiguruj połączenie z bazą**  
+   - Ustaw dane dostępowe w pliku konfiguracyjnym aplikacji (np. w kodzie lub pliku `.properties`):  
+     ```
+     jdbc:mysql://localhost:3306/baza_pojazdow
+     user: root
+     password: [domyślnie puste lub własne hasło]
+     ```
+   - Upewnij się, że sterownik JDBC dla MySQL jest dodany do projektu (np. w `lib` lub przez Gradle/Maven)
+
+4. **Zbuduj projekt**  
    Otwórz projekt w IntelliJ IDEA lub innym IDE obsługującym Java/Gradle/Maven.
 
-4. **Uruchom aplikację**  
+5. **Uruchom aplikację**  
    W IDE lub przez konsolę.
 
 ---
